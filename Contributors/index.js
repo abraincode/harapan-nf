@@ -2,7 +2,7 @@ var users = [];
 var i = 0;
 
 var getData = (function ($) {
-    var URL = 'https://api.github.com/repos/abraincode/hacktoberfest/contributors'
+    var URL = 'https://api.github.com/repos/abraincode/harapan-nf/contributors'
 
     $.get(URL, function (data, status) {
         data.forEach(function (d) {
